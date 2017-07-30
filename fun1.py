@@ -1,8 +1,20 @@
-def add_number ():
+#making the function
+
+def add_numbers (start, end):
     #write the body of this
     #function, similar to the block
     #of code we just saw. hint:
-    #dont forget to use return
+    #don't forget to use return
+    c = 0
+    for number in range (start, end+1):
+        #print (number)
+        c = c + number
+    
+    return (c)
+    
+##################################################
 
-    answer = add_numbers()
-    print(answer)
+# USing the funxtion
+
+answer = add_numbers(1000,5000)
+print(answer)
