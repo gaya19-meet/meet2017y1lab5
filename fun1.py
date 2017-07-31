@@ -1,12 +1,12 @@
 #making the function
 
-def add_numbers (start, end):
+def add_numbers (start, end, skip):
     #write the body of this
     #function, similar to the block
     #of code we just saw. hint:
     #don't forget to use return
     c = 0
-    for number in range (start, end+1):
+    for number in range (start, end+1,skip):
         #print (number)
         c = c + number
     
@@ -14,7 +14,7 @@ def add_numbers (start, end):
     
 ##################################################
 
-# USing the funxtion
+# USing the function
 
-answer = add_numbers(1000,5000)
-print(answer)
+print(add_numbers(0,100,5))
+
